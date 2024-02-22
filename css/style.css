@@ -1,6 +1,8 @@
 :root{
     --dark: #2C3E4F;
     --lightgray: #888888;
+    --green: #19BC9B;
+    --white: #ffffff;
 }
 
 /* RESET */
@@ -14,6 +16,10 @@ a{
     text-decoration: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* HEADER */
 
 .main-header{
@@ -22,4 +28,10 @@ a{
 
 .main-header .hamburger-menu{
     color: var(--lightgray);
+}
+
+/* MAIN - Section .hero */
+
+.hero{
+    background-color: var(--green);
 }
