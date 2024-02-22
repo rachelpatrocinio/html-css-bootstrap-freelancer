@@ -1,0 +1,14 @@
+:root{
+    --dark: #2C3E4F;
+    --lightgray: #888888;
+}
+
+/* HEADER */
+
+.main-header{
+    background-color: var(--dark);
+}
+
+.main-header .hamburger-menu{
+    color: var(--lightgray);
+}
