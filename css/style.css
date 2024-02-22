@@ -35,3 +35,10 @@ img{
 .hero{
     background-color: var(--green);
 }
+
+/* MAIN - Section .portfolio */
+
+.portfolio__title,
+.portfolio__tiele + p{
+    color: var(--dark);
+}
