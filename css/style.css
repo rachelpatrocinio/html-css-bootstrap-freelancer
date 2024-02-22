@@ -54,3 +54,18 @@ button{
     background-color: var(--green);
 }
 
+/* MAIN - Section .contact-me */
+.contact-me{
+    color: var(--dark);
+}
+
+.contact-me input,
+textarea{
+    outline: none;
+    border-bottom: 1px solid var(--lightgray);
+}
+
+.contact-me button{
+    background-color: var(--green);
+}
+
