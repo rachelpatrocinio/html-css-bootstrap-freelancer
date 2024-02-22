@@ -43,6 +43,10 @@ button{
     background-color: var(--green);
 }
 
+.hero img{
+    width: 300px;
+}
+
 /* MAIN - Section .portfolio */
 
 .portfolio__title,
