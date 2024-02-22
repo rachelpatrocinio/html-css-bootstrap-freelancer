@@ -1,5 +1,7 @@
 :root{
     --dark: #2C3E4F;
+    --darker: #2B3E51;
+    --lightdark: #3B536D;
     --lightgray: #888888;
     --green: #19BC9B;
     --white: #ffffff;
@@ -68,4 +70,26 @@ textarea{
 .contact-me button{
     background-color: var(--green);
 }
+
+/* FOOTER */
+
+.main-footer{
+    background-color: var(--lightdark);
+}
+
+.main-footer .container i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.main-footer span{
+    color: var(--green);
+}
+
+.main-footer .container-fluid{
+    background-color: var(--darker);
+}
+
+
 
