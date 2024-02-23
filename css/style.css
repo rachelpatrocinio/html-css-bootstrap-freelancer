@@ -95,5 +95,31 @@ textarea{
     background-color: var(--darker);
 }
 
+.line{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.line::before{
+    content: "";
+    width: 90px;
+    display: block;
+    height: 3px;
+    border-bottom: 3px solid;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+
+.line::after{
+    content: "";
+    width: 90px;
+    display: block;
+    height: 3px;
+    border-bottom: 3px solid;
+    position: absolute;
+    top: 50%;
+    right: 60%;
+}
 
 
