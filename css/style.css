@@ -9,10 +9,6 @@
 
 /* RESET */
 
-ul,ol,menu{
-    list-style: none;
-}
-
 a{
     color: currentColor;
     text-decoration: none;
